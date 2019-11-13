@@ -1,0 +1,24 @@
+2019-11-14 01:44:35,987 p=14609 u=nikita |  PLAY [servers] *****************************************************************
+2019-11-14 01:44:35,995 p=14609 u=nikita |  TASK [Gathering Facts] *********************************************************
+2019-11-14 01:44:37,420 p=14609 u=nikita |  ok: [vagrant@192.168.33.134]
+2019-11-14 01:44:37,742 p=14609 u=nikita |  ok: [vagrant@192.168.33.135]
+2019-11-14 01:44:37,762 p=14609 u=nikita |  TASK [install archive + nano] **************************************************
+2019-11-14 01:44:39,221 p=14609 u=nikita |  ok: [vagrant@192.168.33.135] => (item=zip)
+2019-11-14 01:44:40,368 p=14609 u=nikita |  ok: [vagrant@192.168.33.134] => (item=zip)
+2019-11-14 01:44:42,905 p=14609 u=nikita |  changed: [vagrant@192.168.33.135] => (item=unzip)
+2019-11-14 01:44:44,012 p=14609 u=nikita |  ok: [vagrant@192.168.33.135] => (item=gzip)
+2019-11-14 01:44:47,308 p=14609 u=nikita |  changed: [vagrant@192.168.33.134] => (item=unzip)
+2019-11-14 01:44:48,423 p=14609 u=nikita |  changed: [vagrant@192.168.33.135] => (item=nano)
+2019-11-14 01:44:48,428 p=14609 u=nikita |   [WARNING]: Could not find aptitude. Using apt-get instead
+
+2019-11-14 01:44:49,745 p=14609 u=nikita |  ok: [vagrant@192.168.33.134] => (item=gzip)
+2019-11-14 01:44:58,060 p=14609 u=nikita |  changed: [vagrant@192.168.33.134] => (item=nano)
+2019-11-14 01:44:58,089 p=14609 u=nikita |  TASK [remove unzip] ************************************************************
+2019-11-14 01:45:01,421 p=14609 u=nikita |  changed: [vagrant@192.168.33.135]
+2019-11-14 01:45:02,898 p=14609 u=nikita |  changed: [vagrant@192.168.33.134]
+2019-11-14 01:45:02,919 p=14609 u=nikita |  TASK [remove nano] *************************************************************
+2019-11-14 01:45:06,411 p=14609 u=nikita |  changed: [vagrant@192.168.33.135]
+2019-11-14 01:45:08,174 p=14609 u=nikita |  changed: [vagrant@192.168.33.134]
+2019-11-14 01:45:08,177 p=14609 u=nikita |  PLAY RECAP *********************************************************************
+2019-11-14 01:45:08,177 p=14609 u=nikita |  vagrant@192.168.33.134     : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-11-14 01:45:08,177 p=14609 u=nikita |  vagrant@192.168.33.135     : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
